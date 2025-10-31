@@ -1,11 +1,14 @@
 // Cài đặt cho hiệu ứng hạt
 var settings = {
     particles: {
-        length: 5000,      // Số lượng hạt
-        duration: 3,       // Thời gian tồn tại của hạt (giây)
-        velocity: 80,      // Vận tốc
-        effect: -0.2,      // Hiệu ứng lực
-        size: 14           // Kích thước hạt
+        length: 8000,      // Tăng số lượng hạt để đầy đặn hơn
+        duration: 4,       // Kéo dài thời gian tồn tại của hạt
+        velocity: 100,     // Tăng vận tốc cho hiệu ứng sống động
+        effect: -0.3,      // Tăng hiệu ứng lực cho chuyển động tự nhiên hơn
+        size: 16,          // Tăng kích thước hạt
+        glow: true,        // Thêm hiệu ứng phát sáng
+        pulseIntensity: 0.5, // Cường độ hiệu ứng rung rinh
+        heartSize: 200     // Kích thước trái tim
     }
 };
 
